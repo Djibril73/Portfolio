@@ -13,9 +13,9 @@ const projets = [
   {
     title: 'Site de Location de Voiture',
     description: 'Application qui permet de pouvoir réservé une voiture en ligne directement depuis le Site Web, ce projet à été réalisé en React',
-    image: '/src/assets/calculatrice.png',
+    image: '/src/assets/location.png',
     tech: ['React', 'CSS', 'SQL'],
-    link: 'https://monprojet.netlify.app'
+    link: 'https://github.com/Djibril73/tp_location'
   },
 
   {
@@ -23,7 +23,7 @@ const projets = [
     description: 'Application qui permet la gestions de congés pour les entreprises, elle a été réalisé en php symfony',
     image: 'src/assets/conge.png',
     tech: ['Symfony','SQL', 'PHP'],
-    link: ''
+    link: 'https://github.com/Djibril73/tp_gestion_conge'
   }
 ];
 

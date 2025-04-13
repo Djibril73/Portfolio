@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
+import Certifications from './components/Certification';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             <Description />
             <Experience />
             <Skills />
+            <Certifications />
             <Projets />
           </>
         } />

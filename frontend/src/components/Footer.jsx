@@ -18,7 +18,7 @@ const Footer = () => {
         <a href="https://github.com/Djibril73?tab=repositories" target="_blank" rel="noopener noreferrer">
           <img src="/src/assets/github.svg" alt="GitHub" />
         </a>
-        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/Cv.pdf" target="_blank" rel="noopener noreferrer">
           <img src="/src/assets/cv.svg" alt="CV" />
         </a>
       </div>
