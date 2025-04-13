@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Experience from './components/Experience';
 import Description from './components/Description';
 import Skills from './components/Skills';
-import Projets from './components/projets';
+import Projets from './components/Projets';
 import Contact from './pages/Contact';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
