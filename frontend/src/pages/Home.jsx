@@ -41,7 +41,7 @@ const Home = () => {
           <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
         </a>
         <a href="https://github.com/Djibril73?tab=repositories" target="_blank" rel="noopener noreferrer">
-          <img src="/src/assets/github.svg" alt="GitHub" className="w-6 h-6" />
+          <img src={Git} alt="GitHub" className="w-6 h-6" />
         </a>
         <a href="/Cv.pdf" target="_blank" rel="noopener noreferrer">
           <img src={Cv} alt="CV" className="w-6 h-6" />
