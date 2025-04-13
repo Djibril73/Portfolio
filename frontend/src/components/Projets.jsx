@@ -27,7 +27,14 @@ const projets = [
     image: congeImg,
     tech: ['Symfony', 'SQL', 'PHP'],
     link: 'https://github.com/Djibril73/tp_gestion_conge'
-  }
+  },
+  {
+    title: 'Site AksarayKebab',
+    description: "Site qui permet aux clients de consulter le menu, les horaires, l'emplacement également du restaurant, ce site a été réalisée en html css javascript",
+    image: '',
+    tech: ['HTML','CSS', 'JAVASCRIPT'],
+    link: 'https://www.aksaraykebab.fr'
+  },
 ];
 
 const Projets = () => {
