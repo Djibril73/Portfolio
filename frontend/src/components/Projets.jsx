@@ -4,6 +4,7 @@ import '../Allcss/Projets.css';
 
 import portfolioImg from '../assets/portfolio.png';
 import locationImg from '../assets/location.png';
+import Kebab from '../assets/kebab.png';
 import congeImg from '../assets/conge.png';
 
 const projets = [
@@ -31,7 +32,7 @@ const projets = [
   {
     title: 'Site AksarayKebab',
     description: "Site qui permet aux clients de consulter le menu, les horaires, l'emplacement également du restaurant, ce site a été réalisée en html css javascript",
-    image: '',
+    image: Kebab,
     tech: ['HTML','CSS', 'JAVASCRIPT'],
     link: 'https://www.aksaraykebab.fr'
   },
