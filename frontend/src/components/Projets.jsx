@@ -2,34 +2,37 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import '../Allcss/Projets.css';
 
+import portfolioImg from '../assets/portfolio.png';
+import locationImg from '../assets/location.png';
+import congeImg from '../assets/conge.png';
+
 const projets = [
   {
     title: 'Mon Portfolio',
     description: 'Portfolio personnel réalisé avec React, Tailwind et Framer Motion.',
-    image: '/src/assets/portfolio.png',
+    image: portfolioImg,
     tech: ['React', 'Tailwind', 'Framer Motion'],
     link: 'https://github.com/monprofil/portfolio'
   },
   {
     title: 'Site de Location de Voiture',
-    description: 'Application qui permet de pouvoir réservé une voiture en ligne directement depuis le Site Web, ce projet à été réalisé en React',
-    image: '/src/assets/location.png',
+    description: 'Application qui permet de pouvoir réserver une voiture en ligne directement depuis le Site Web, ce projet à été réalisé en React.',
+    image: locationImg,
     tech: ['React', 'CSS', 'SQL'],
     link: 'https://github.com/Djibril73/tp_location'
   },
-
   {
     title: 'Gestion de Congés',
-    description: 'Application qui permet la gestions de congés pour les entreprises, elle a été réalisé en php symfony',
-    image: 'src/assets/conge.png',
-    tech: ['Symfony','SQL', 'PHP'],
+    description: 'Application qui permet la gestion des congés pour les entreprises, elle a été réalisée en PHP Symfony.',
+    image: congeImg,
+    tech: ['Symfony', 'SQL', 'PHP'],
     link: 'https://github.com/Djibril73/tp_gestion_conge'
   }
 ];
 
 const Projets = () => {
   return (
-    <motion.section id="projets" className="projets-section" 
+    <motion.section id="projets" className="projets-section"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}

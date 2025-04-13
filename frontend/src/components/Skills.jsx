@@ -1,15 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../Allcss/Skills.css';
+import htmlIcon from '../assets/html.svg';
+import tsIcon from '../assets/ts.svg';
+import reactIcon from '../assets/reactt.svg';
+import sqlIcon from '../assets/sql.svg';
+import phpIcon from '../assets/php.svg';
+import symfonyIcon from '../assets/symfony.svg';
+import gitIcon from '../assets/git.svg';
 
 const skills = [
-  { name: 'HTML / CSS ', icon: '/src/assets/html.svg' },
-  { name: 'JavaScript', icon: '/src/assets/ts.svg' },
-  { name: 'React', icon: '/src/assets/reactt.svg' },
-  { name: 'SQL', icon: '/src/assets/sql.svg' },
-  { name: 'PHP / PDO', icon: '/src/assets/php.svg' },
-  { name: 'Symfony', icon: '/src/assets/symfony.svg' },
-  { name: 'Git', icon: '/src/assets/git.svg' },
+  { name: 'HTML / CSS', icon: htmlIcon },
+  { name: 'JavaScript', icon: tsIcon },
+  { name: 'React', icon: reactIcon },
+  { name: 'SQL', icon: sqlIcon },
+  { name: 'PHP / PDO', icon: phpIcon },
+  { name: 'Symfony', icon: symfonyIcon },
+  { name: 'Git', icon: gitIcon },
 ];
 
 const Skills = () => {

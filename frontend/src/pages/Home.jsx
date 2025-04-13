@@ -2,6 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import "../Allcss/Home.css"
 import { Typewriter } from 'react-simple-typewriter';
+import linkedin from '../assets/linkedin.svg';
+import Cv from '../assets/cv.svg';
+import Git from '../assets/github.svg';
+import Astronaute from '../assets/astronaute.jpg';
 
 
 const Home = () => {
@@ -33,19 +37,19 @@ const Home = () => {
 </h1>
 
       <div className="social-icons">
-        <a href="https://www.linkedin.com/in/djibril-gharbi-61981632b/" target="_blank" rel="noopener noreferrer">
-          <img src="/src/assets/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+        <a href={Git} target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
         </a>
         <a href="https://github.com/Djibril73?tab=repositories" target="_blank" rel="noopener noreferrer">
           <img src="/src/assets/github.svg" alt="GitHub" className="w-6 h-6" />
         </a>
         <a href="/Cv.pdf" target="_blank" rel="noopener noreferrer">
-          <img src="/src/assets/cv.svg" alt="CV" className="w-6 h-6" />
+          <img src={Cv} alt="CV" className="w-6 h-6" />
         </a>
       </div>
 
       <img
-        src="/src/assets/astronaute.jpg"
+        src={Astronaute}
         alt="Astronaute"
         className="astronaut-img"
       />

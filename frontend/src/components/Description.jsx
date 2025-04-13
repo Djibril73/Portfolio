@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import '../Allcss/Description.css';
 
+import profileIcon from '../assets/profile.svg';
+
 const Description = () => {
   return (
     <motion.section id="description" className="description-section"
@@ -18,7 +20,7 @@ const Description = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <img src="/src/assets/profile.svg" alt="Profile" />
+          <img src={profileIcon} alt="Profile" />
         </motion.div>
         <div className="description-content">
           <h2>I'm <span className="highlight">Djibril</span></h2>
