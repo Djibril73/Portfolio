@@ -13,14 +13,14 @@ const projets = [
     description: 'Portfolio personnel réalisé avec React, Tailwind et Framer Motion.',
     image: portfolioImg,
     tech: ['React', 'Tailwind', 'Framer Motion'],
-    link: 'https://github.com/monprofil/portfolio'
+    link: 'https://portfolio-djibril-gharbi.vercel.app/'
   },
   {
     title: 'Site de Location de Voiture',
     description: 'Application qui permet de pouvoir réserver une voiture en ligne directement depuis le Site Web, ce projet à été réalisé en React.',
     image: locationImg,
     tech: ['React', 'CSS', 'SQL'],
-    link: 'https://github.com/Djibril73/tp_location'
+    link: 'https://tp-location.vercel.app/cars'
   },
   {
     title: 'Gestion de Congés',
