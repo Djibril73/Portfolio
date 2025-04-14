@@ -6,6 +6,7 @@ import portfolioImg from '../assets/portfolio.png';
 import locationImg from '../assets/location.png';
 import Kebab from '../assets/kebab.png';
 import congeImg from '../assets/conge.png';
+import Deniz from '../assets/deniz.png'
 
 const projets = [
   {
@@ -35,6 +36,13 @@ const projets = [
     image: Kebab,
     tech: ['HTML','CSS', 'JAVASCRIPT'],
     link: 'https://www.aksaraykebab.fr'
+  },
+  {
+    title: 'Site Deniz Peinture',
+    description: "Site Vitrine réalisée pour l'entreprise Deniz Peinture, réalisé en react+vite",
+    image: Deniz,
+    tech: ['React', 'Vite', 'CSS'],
+    link: 'https://deniz-peinture.fr/',
   },
 ];
 
